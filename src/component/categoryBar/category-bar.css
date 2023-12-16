@@ -1,0 +1,15 @@
+.category-bar{
+    padding: 2rem;
+    display: flex;
+    gap: 1.5rem;
+    width: max-content;
+}
+.category-link{
+    color: grey;
+}
+
+
+.active-category{
+    color: black;
+    border-bottom: 2px solid black;
+}

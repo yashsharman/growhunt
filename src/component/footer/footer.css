@@ -1,0 +1,69 @@
+footer {
+  background-color: rgba(21, 42, 49, 1);
+  padding: 6rem;
+  padding-bottom: 0;
+  display: flex;
+  flex-direction: row;
+  height: 60vh;
+}
+footer * {
+  font-size: 1rem;
+  color: white;
+}
+.contact-container {
+  background: linear-gradient(180deg, #152a31 0%, #000000 102.48%);
+  padding: 2rem;
+}
+.mail-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+}
+.mail-icon {
+  height: 1.5rem;
+}
+.contact-type-container {
+  margin-top: 4rem;
+}
+.contact-type {
+  width: 25rem;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 15px;
+  color: gray;
+  margin-bottom: 1rem;
+}
+.gradient-text {
+  background: linear-gradient(131.65deg, #07dd92 24.38%, #06b9f0 75.69%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+.link-container {
+  margin-left: 2rem;
+}
+.footer-links-group {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+.footer-links {
+  padding: 0.5rem;
+  border-bottom: 3px solid white;
+}
+.footer-active-link {
+  border-bottom: 3px solid rgba(7, 221, 146, 1);
+}
+.footer-p-cantainer {
+  display: flex;
+}
+.footer-p-cantainer > p {
+  margin-right: 4rem;
+  font-weight: 500;
+  line-height: 38px;
+}

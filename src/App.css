@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat-Medium", Helvetica;
+}
+body {
+  margin: 0;
+}
+#root{
+  width: 100%;
+}
+.App {
+  min-width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+
+}
+

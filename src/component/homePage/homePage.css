@@ -1,0 +1,39 @@
+.homepage {
+  width: 100%;
+  padding: 0 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+@media (min-width:1600px) {
+  .homepage{
+    padding: 0 10%;
+    overflow: hidden;
+  }
+  
+}
+
+section {
+  margin: 2rem 0 4rem 0;
+}
+.shape1{
+  position: absolute;
+  width: 3rem;
+  top: 38rem;
+  right: 3.7rem;
+}
+.shape2{
+  position: absolute;
+  width: 20rem;
+  top: 62rem;
+  left: -15rem;
+}
+.shape3{
+  position: absolute;
+  width: 10rem;
+  bottom: 20rem;
+  right: -5rem;
+  rotate: -4deg;
+}
+
